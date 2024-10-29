@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "VideoJEDi"
-version = "0.1.2"
+version = "0.1.3"
 license="Apache-2.0"
 description = "JEPA Embedding Distance - for video distribution quality assessment."
 authors = ["Ge Ya (Olga) Luo <olga.xu@umontreal.ca>"]
@@ -12,7 +12,7 @@ include = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-scikit-learn = "1.3.2"
+scikit-learn = "1.5.0"
 av = "12.1.0"
 numpy = ">=1.24.0"
 pyav = "12.0.5"
